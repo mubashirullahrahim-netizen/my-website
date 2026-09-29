@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mubashir's Website</title>
+
+    <style>
+        body {
+            background-color: #e0f2fe; /* A softer, more modern light blue */
+            text-align: center;
+            font-family: 'Segoe UI', Arial, sans-serif; /* Clean modern font */
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        .profile-card {
+            background: white;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle professional shadow */
+        }
+
+        h1 {
+            color: #0369a1; /* Vibrant dark blue */
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #334155; /* Dark gray for better readability */
+            margin: 10px 0;
+        }
+
+        .phone-num {
+            font-weight: bold;
+            color: #0c4a6e;
+        }
+
+        img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #0ea5e9; /* Styled border matching the theme */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        /* Beautiful and Interactive WhatsApp Button styling */
+        .btn-contact {
+            display: inline-block;
+            background-color: #25D366; /* Official WhatsApp Green */
+            color: white;
+            padding: 14px 30px;
+            border: none;
+            border-radius: 30px; /* Smooth rounded pill shape */
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none; /* Removes the underline from the link */
+            margin-top: 25px;
+            transition: all 0.3s ease; /* Smooth transition effect */
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(37, 211, 102, 0.2);
+        }
+
+        /* Changes color beautifully when hovered over */
+        .btn-contact:hover {
+            background-color: #128C7E; /* Darker WhatsApp Green on hover */
+            transform: translateY(-2px); /* Slight lift effect */
+            box-shadow: 0 6px 12px rgba(18, 140, 126, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Wrapped everything inside a clean card layout -->
+    <div class="profile-card">
+        <h1>Mubashir Ullah Rahim</h1>
+
+        <!-- Make sure "myphoto.jpg" is in the exact same folder as this file -->
+        <img src="myphoto.jpg" alt="Mubashir's Photo">
+
+        <p>Hello! My name is Mubashir Ullah Rahim.</p>
+
+        <p>Phone: <span class="phone-num">0783589828</span></p>
+
+        <!-- New WhatsApp Link: Replaced the old "tel:" code to avoid errors -->
+        <a href="https://wa.me!" target="_blank" class="btn-contact">Message on WhatsApp</a>
+    </div>
+
+</body>
+</html>
